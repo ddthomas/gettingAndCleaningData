@@ -1,0 +1,16 @@
+# Getting and Cleaning Data Project
+
+Data Zip File Location: [UC Irvine Repo](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+
+## Project Components
+1. Final result, a tidy data set.
+2. A link to a Github repository with your script for performing the analysis 
+3. A code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. You should also include a README.md in the repo with your scripts.
+4. Analysis R Script.
+
+## Dataframe manipulation
+1. Read both test and train data and keep mean and std dev variables.
+2. Merge test and train datasets.
+3. Label appropriately.
+4. Reshape dataframe.
+5. Write tidyData.txt.
